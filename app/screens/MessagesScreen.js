@@ -45,8 +45,8 @@ function MessagesScreen(props) {
         )}
         ItemSeparatorComponent={() => <ListItemSeparator />}
         refreshing={refreshing}
-        onRefresh={()=>{
-          setMessages([])
+        onRefresh={() => {
+          setMessages([]);
         }}
       />
     </Screen>
